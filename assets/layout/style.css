@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0aa42;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+h2 {
+    color: brown;
+}
+
+.header {
+    background-image: url("../images/header2.jpg");
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+.header-carbonara {
+    background-image: url("../images/carbonara.jpg");
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+.header-pesto {
+    background-image: url("../images/pesto.jpg");
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+.header-cannelloni {
+    background-image: url("../images/cannelloni.jpg");
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li, p {
+    line-height: 1.5;
+}
+
+.blog-title {
+    vertical-align: middle;
+    margin-top: 150px;
+}
+
+.recipe-block {
+    border: 1px solid #f0e8e8;
+    padding: 15px 10px 25px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 360px;
+    margin: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+.recipe-block img {
+    width: 90%;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.recipe-block h2 {
+    margin: 10px;
+}
+
+.recipe-block p {
+    margin: 12px 12px 22px 12px;
+    
+}
+
+.recipe-block:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-block a {
+    height: 40px;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px;
+    background-color: rgb(41, 41, 245);
+    border: 1px solid rgb(52, 52, 172);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.container-big {
+    margin-top: -30px;
+    padding: 10px 0px 1px 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: rgb(41, 38, 38);
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+
+}
